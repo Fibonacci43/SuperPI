@@ -16,6 +16,7 @@ the source code of performing single thread CPU benchmark
 **use cmake :**
 
 ```mkdir build && cd build && cmake ..```
+
 you can either open it in vscode and build with cmake plugin
 
 -----
@@ -23,4 +24,4 @@ you can either open it in vscode and build with cmake plugin
 
 ```./pi_css5 $((1<<20))```
 
-*the parameter is the number of decimal digits you want to calculate in the program it will be round to the power of two*
+*the parameter is the number of decimal digits you want to calculate in the program. it will be round to the power of two.*

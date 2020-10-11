@@ -17,7 +17,7 @@ the source code of performing single thread CPU benchmark
 
 ```mkdir build && cd build && cmake ..```
 
-you can either open it in vscode and build with cmake plugin
+*you can either open it in vscode and build with cmake plugin*
 
 -----
 ## run on linux

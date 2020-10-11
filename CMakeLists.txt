@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(pi_benchmark)
+SET(CMAKE_C_COMPILER gcc)
+add_compile_options(-Wall -pedantic -fomit-frame-pointer -O -funroll-loops -malign-double -static)
+add_executable(pi_css5 pi_fftcs.c fftsg_h.c)
